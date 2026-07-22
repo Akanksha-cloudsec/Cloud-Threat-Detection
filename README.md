@@ -36,11 +36,10 @@ This project shows how to build an automatic security system on Amazon Web Servi
 | AWS Lambda | Executes automated response playbooks |
 | AWS Step Functions | Coordinates multi-step remediation workflows |
 
-### 📨 Notification & Visibility Layer
+### 📨 Notification 
 | **Service** | **Purpose** |
 | :--- | :--- |
 | Amazon SNS | Real-time alerts (email/SMS) |
-| AWS Security Hub | Centralized security findings aggregation |
 
 ### 🧪 Testing Layer
 | **Service** | **Purpose** |
