@@ -7,6 +7,8 @@ This project shows how to build an automatic security system on Amazon Web Servi
 - <a href="#tech-stack">Tech Stack</a>
 - <a href="#project-phase">Project Phase</a>
 - <a href="#result">Result</a>
+- <a href="#security-best-practices">Security Best Practices</a>
+- <a href="#resources">Resources</a>
 
 <h2><a class="anchor" id="key-features"></a> 🎯 Key Features</h2>
 
@@ -144,6 +146,42 @@ This project shows how to build an automatic security system on Amazon Web Servi
 
   ![image alt](https://github.com/Akanksha-cloudsec/Cloud-Threat-Detection/blob/997e0e3681964fcf538eb8e7a3abc989c12947a7/IMAGES/image%2021.png)
 
+<h2><a class="anchor" id="security-best-practices"></a> ✅ Security Best Practices</h2>
 
- 
+ - Principle of Least Privilege for IAM roles
+
+ - Isolated lab environment for testing
+
+ - MFA enforcement on all users
+
+ - Regular security reviews
+
+ - Encryption at rest and in transit
+
+ - Secure storage of sensitive data
+
+ - Regular penetration testing
+
+<h2><a class="anchor" id="resources"></a> 📚 Resources</h2>
+
+  [Amazon VPC](https://aws.amazon.com/vpc/)
   
+  [Amazon EC2](https://aws.amazon.com/ec2/)
+  
+  [Amazon S3](https://aws.amazon.com/s3/)
+  
+  [Amazon RDS](https://aws.amazon.com/rds/)
+
+  [AWS CloudTrail](https://aws.amazon.com/cloudtrail/)
+
+  [Amazon CloudWatch](https://aws.amazon.com/cloudwatch/)
+
+  [Amazon GuardDuty](https://aws.amazon.com/guardduty/)
+  
+  [Amazon EventBridge](https://aws.amazon.com/eventbridge/)
+  
+  [AWS Lambda](https://aws.amazon.com/lambda/)
+  
+  [Pacu](https://github.com/RhinoSecurityLabs/pacu)
+  
+ 
