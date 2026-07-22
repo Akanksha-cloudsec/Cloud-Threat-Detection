@@ -6,3 +6,12 @@ This project shows how to build an automatic security system on Amazon Web Servi
 - <a href="#architecture-diagram">Architecture Diagram</a>
 - <a href="#tech-stack">Tech Stack</a>
 
+## 🎯 Key Features
+- 🔍 Real-time Threat Detection: Utilizes Amazon GuardDuty and CloudWatch Alarms to monitor for malicious activities
+
+- ⚡ Automated Response: AWS Lambda functions execute pre-defined response playbooks (EC2 isolation, forensic snapshot creation)
+
+- 📨 Instant Notifications: Amazon SNS sends real-time alerts to security teams
+
+- 🔄 End-to-End Testing: Kali Linux penetration testing validates the entire pipeline
+
