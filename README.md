@@ -98,6 +98,52 @@ This project shows how to build an automatic security system on Amazon Web Servi
 
   ![image alt](https://github.com/Akanksha-cloudsec/Cloud-Threat-Detection/blob/5e7d3812f48b1551e4101000c3bfc631696457a0/IMAGES/image%209.png)
 
-  
+- ### Phase 3 : Automated Response Implementation
+
+  Develop AWS Lambda function for automated response.
+
+  ![image alt](https://github.com/Akanksha-cloudsec/Cloud-Threat-Detection/blob/997e0e3681964fcf538eb8e7a3abc989c12947a7/IMAGES/image%2010.png)
+
+  Create EventBridge rule for high-severity GuardDuty findings.
+
+  ![image alt](https://github.com/Akanksha-cloudsec/Cloud-Threat-Detection/blob/997e0e3681964fcf538eb8e7a3abc989c12947a7/IMAGES/image%2011.png)
+
+- ### Phase 4 : Attack Simulation & Validation
+
+  Set up Kali Linux attack machine.
+
+  Configure Pacu for automated AWS pentesting. Execute attacks: S3 exfiltration, port scanning, lateral movement.
+
+  ![image alt](https://github.com/Akanksha-cloudsec/Cloud-Threat-Detection/blob/997e0e3681964fcf538eb8e7a3abc989c12947a7/IMAGES/image%2012.png)
+
+  ![image alt](https://github.com/Akanksha-cloudsec/Cloud-Threat-Detection/blob/997e0e3681964fcf538eb8e7a3abc989c12947a7/IMAGES/image%2013.png)
+
+  <h2><a class="anchor" id="result"></a> 📄 Result</h2>
+
+  Amazon **SNS** Notification for S3 exfiltration.
+
+  ![image alt](https://github.com/Akanksha-cloudsec/Cloud-Threat-Detection/blob/997e0e3681964fcf538eb8e7a3abc989c12947a7/IMAGES/image%2014.jpeg)
+
+  Check **CloudWatch**.
+
+  ![image alt](https://github.com/Akanksha-cloudsec/Cloud-Threat-Detection/blob/997e0e3681964fcf538eb8e7a3abc989c12947a7/IMAGES/Image%2016.png)
+
+  ![image alt](https://github.com/Akanksha-cloudsec/Cloud-Threat-Detection/blob/997e0e3681964fcf538eb8e7a3abc989c12947a7/IMAGES/image%2015.png)
+
+  Check **GuardDuty** findings.
+
+  ![image alt](https://github.com/Akanksha-cloudsec/Cloud-Threat-Detection/blob/997e0e3681964fcf538eb8e7a3abc989c12947a7/IMAGES/Image%2017.png)
+
+  ![image alt](https://github.com/Akanksha-cloudsec/Cloud-Threat-Detection/blob/997e0e3681964fcf538eb8e7a3abc989c12947a7/IMAGES/image%2018.png)
+
+  ![image alt](https://github.com/Akanksha-cloudsec/Cloud-Threat-Detection/blob/997e0e3681964fcf538eb8e7a3abc989c12947a7/IMAGES/image%2019.png)
+
+  Check **GuardDuty** Summary.
+
+  ![image alt](https://github.com/Akanksha-cloudsec/Cloud-Threat-Detection/blob/997e0e3681964fcf538eb8e7a3abc989c12947a7/IMAGES/image%2020.png)
+
+  ![image alt](https://github.com/Akanksha-cloudsec/Cloud-Threat-Detection/blob/997e0e3681964fcf538eb8e7a3abc989c12947a7/IMAGES/image%2021.png)
+
+
  
   
