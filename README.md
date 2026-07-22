@@ -7,11 +7,15 @@ This project shows how to build an automatic security system on Amazon Web Servi
 - <a href="#tech-stack">Tech Stack</a>
 
 ## 🎯 Key Features
-- 🔍 Real-time Threat Detection: Utilizes Amazon GuardDuty and CloudWatch Alarms to monitor for malicious activities
+- 🔍 **Real-time Threat Detection**: Utilizes Amazon GuardDuty and CloudWatch Alarms to monitor for malicious activities.
 
-- ⚡ Automated Response: AWS Lambda functions execute pre-defined response playbooks (EC2 isolation, forensic snapshot creation)
+- ⚡ **Automated Response**: AWS Lambda functions execute pre-defined response playbooks (EC2 isolation, forensic snapshot creation).
 
-- 📨 Instant Notifications: Amazon SNS sends real-time alerts to security teams
+- 📨 **Instant Notifications**: Amazon SNS sends real-time alerts to security teams.
 
-- 🔄 End-to-End Testing: Kali Linux penetration testing validates the entire pipeline
+- 🔄 **End-to-End Testing**: Kali Linux penetration testing validates the entire pipeline.
+
+## 🏗️ Architecture Diagram
+![image alt](https://github.com/Akanksha-cloudsec/Cloud-Threat-Detection/blob/a9810dda0c0974a6039bc5c90ad7e85dad4c42ea/Architecture%20Diagram/Blank%20diagram.png)
+
 
