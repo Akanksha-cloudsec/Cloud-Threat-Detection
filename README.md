@@ -6,6 +6,7 @@ This project shows how to build an automatic security system on Amazon Web Servi
 - <a href="#architecture-diagram">Architecture Diagram</a>
 - <a href="#tech-stack">Tech Stack</a>
 - <a href="#project-phase">Project Phase</a>
+- <a href="#result">Result</a>
 
 <h2><a class="anchor" id="key-features"></a> 🎯 Key Features</h2>
 
@@ -74,3 +75,29 @@ This project shows how to build an automatic security system on Amazon Web Servi
   Deploy RDS database in private subnet.
 
   ![image alt](https://github.com/Akanksha-cloudsec/Cloud-Threat-Detection/blob/c7de7b398136c5e824610c54c3d340f912b7c547/IMAGES/image%204.png)
+
+  Enable the SNS.
+
+  ![image alt](https://github.com/Akanksha-cloudsec/Cloud-Threat-Detection/blob/5e7d3812f48b1551e4101000c3bfc631696457a0/IMAGES/image%205.png)
+
+  ![image alt](https://github.com/Akanksha-cloudsec/Cloud-Threat-Detection/blob/5e7d3812f48b1551e4101000c3bfc631696457a0/IMAGES/image%206.jpeg)
+
+- ### Phase 2 : Detection Services Configuration
+
+  Enable Amazon **GuardDuty**.
+
+  Configure AWS CloudTrail, first create a trail for S3 object-level logging and enable the **CloudWatch logs option**.
+
+  ![image alt](https://github.com/Akanksha-cloudsec/Cloud-Threat-Detection/blob/5e7d3812f48b1551e4101000c3bfc631696457a0/IMAGES/image%207.png)
+
+  Create CloudWatch Metric Filter, first create log group then create metric filter in it for **GetObject** events.
+
+  ![image alt](https://github.com/Akanksha-cloudsec/Cloud-Threat-Detection/blob/5e7d3812f48b1551e4101000c3bfc631696457a0/IMAGES/image%208.png)
+
+  Create Alarm for S3 exfiltration, In alram select the custom metric filter with threshold > 2.
+
+  ![image alt](https://github.com/Akanksha-cloudsec/Cloud-Threat-Detection/blob/5e7d3812f48b1551e4101000c3bfc631696457a0/IMAGES/image%209.png)
+
+  
+ 
+  
