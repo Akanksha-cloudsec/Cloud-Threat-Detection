@@ -5,6 +5,7 @@ This project shows how to build an automatic security system on Amazon Web Servi
 - <a href="#key-features">Key Features</a>
 - <a href="#architecture-diagram">Architecture Diagram</a>
 - <a href="#tech-stack">Tech Stack</a>
+- <a href="#project-phase">Project Phase</a>
 
 <h2><a class="anchor" id="key-features"></a> 🎯 Key Features</h2>
 
@@ -54,4 +55,22 @@ This project shows how to build an automatic security system on Amazon Web Servi
 | Amazon S3 | Sensitive data storage for exfiltration testing |
 | Amazon RDS | High-value target for lateral movement testing |
 
+<h2><a class="anchor" id="project-phase"></a> 📝 Project-Phase</h2>
 
+- ### Phase 1 : Lab Environment Setup
+
+  Create isolated VPC with public and private subnets.
+
+  ![image alt](https://github.com/Akanksha-cloudsec/Cloud-Threat-Detection/blob/c7de7b398136c5e824610c54c3d340f912b7c547/IMAGES/image%201.png)
+
+  Deploy "Compromised" EC2 instance with IAM role(S3ReadOnly).
+
+  ![image alt](https://github.com/Akanksha-cloudsec/Cloud-Threat-Detection/blob/c7de7b398136c5e824610c54c3d340f912b7c547/IMAGES/image%202.png)
+
+  Create sensitive S3 bucket with dummy data.
+
+  ![image alt](https://github.com/Akanksha-cloudsec/Cloud-Threat-Detection/blob/c7de7b398136c5e824610c54c3d340f912b7c547/IMAGES/image%203.png)
+
+  Deploy RDS database in private subnet.
+
+  ![image alt](https://github.com/Akanksha-cloudsec/Cloud-Threat-Detection/blob/c7de7b398136c5e824610c54c3d340f912b7c547/IMAGES/image%204.png)
